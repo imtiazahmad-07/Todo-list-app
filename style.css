@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 159),rgb(23, 189, 255));
+
+}
+
+#box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin-left: 450px;;
+    margin-top: 100px;
+    border-radius: 10%;
+    padding: 30px;
+}
