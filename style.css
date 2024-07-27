@@ -31,4 +31,20 @@ body{
     margin-left: 10px;
     height: 34px;
     width: 50px;
+    cursor: pointer;
+}
+
+.text p{
+    position: relative;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.text p i{
+    position: absolute;
+    right: 35px;
+    font-size: 23px;
+    color: rgb(168, 21, 21);
+    cursor: pointer;
 }
