@@ -13,7 +13,9 @@ btn.addEventListener('click', ()=>{
             newElement.innerHTML = `${inputs.value} <i class="fa-solid fa-trash"></i>`;
             text.appendChild(newElement);
             inputs.value= "";
-
+            newElement.querySelector("i").addEventListener("click",()=>{
+                newElement.remove();
+            })
         }
 })
 
